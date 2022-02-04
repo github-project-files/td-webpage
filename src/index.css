@@ -29,12 +29,17 @@ p {
   line-height: 1.9;
   font-family: 'Poppins', sans-serif;
 }
+form {
+  width: 100%;
+  margin-top: 30px;
+}
 .container {
   width: 90%;
   margin: 0 auto;
   padding: 50px;
 }
-.img-flex, .login-inline {
+.office-address {width: 80%;margin-top: 30px;}
+.img-flex, .login-inline, .form-address {
   display: flex;
 }
 .login-inline {width: 51%; margin-top: 20px;}
@@ -65,7 +70,8 @@ p {
   max-width: 30% !important;
   padding: 10px !important; 
   margin: 10px !important;
-  width: 30% !important;}
+  width: 30% !important;
+}
 .GridView {
   margin-bottom: 50px;
 }

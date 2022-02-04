@@ -28,6 +28,17 @@ const ContactForm = () => {
     <div className="container">
       <h2>Ask how to Generate Lorem Impsum?</h2>
          <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div className="form-address">
+      <div className="office-address">
+        <h3>
+          Lorem Impsum Lorem Impsum
+        </h3>
+        <p>Lorem Impsum Lorem Impsum,<br/>
+        Lorem Impsum Lorem,<br/>
+        Lorem Impsum<br/>
+        +91 000-000-000<br/>
+        john.doe@domain.com</p>
+      </div>
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
@@ -69,7 +80,7 @@ const ContactForm = () => {
         </button>
       </div>
     </form>  
-          
+    </div>
     </div>
     <Footer />
     </div>
