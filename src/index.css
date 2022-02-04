@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -79,12 +77,13 @@ a.logo {text-decoration: none;}
 }
 input, textarea {
   font-family: 'Poppins';
-  border: 1px solid #f2f2f2;
+  border: 1px solid steelblue;
+  border-radius: 3px;
   padding: 25px 15px;
   font-family: 'Poppins', sans-serif;
   height: 50px;
   margin: 10px;
-  width: 50%;
+  width: 100%;
 }
 textarea {
   font-family: 'Poppins';
