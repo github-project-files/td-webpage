@@ -6,19 +6,22 @@ function gridview() {
       <Container>
   <Row>
     <Col sm={4} className='col'>
-      <img src='https://via.placeholder.com/320/180'></img>
-      <h2>How To Set Custom Text</h2>
-      <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <img src='https://via.placeholder.com/320/180'></img>
+        <h2>How To Set Custom Text</h2>
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>      
+        <button className="readmore-btn"> <a href='#'>Read More</a> </button>
     </Col>
     <Col sm={4} className='col'>
-    <img src='https://via.placeholder.com/320/180'></img>
-    <h2>How To Set Custom Text</h2>
-    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <img src='https://via.placeholder.com/320/180'></img>
+        <h2>How To Set Custom Text</h2>
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button className="readmore-btn"> <a href='#'>Read More</a> </button>
     </Col>
     <Col sm={4} className='col'>
-    <img src='https://via.placeholder.com/320/180'></img>
-    <h2>How To Set Custom Text</h2>
-    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <img src='https://via.placeholder.com/320/180'></img>
+        <h2>How To Set Custom Text</h2>
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button className="readmore-btn"> <a href='#'>Read More</a> </button>
     </Col>
   </Row>
 </Container>

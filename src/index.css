@@ -10,7 +10,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #272727;
-  width: 90%;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 h1 {
@@ -18,7 +18,7 @@ h1 {
   font-weight: 500;
 }
 h2 {
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 500;
 }
 h3 {
@@ -63,14 +63,15 @@ form {
 .carousel .slider-wrapper {
   height: 450px;
 }
+.GridView .col h2, .GridView .col p {margin: 10px;}
 .GridView .col {
   border: 1px solid #f2f2f2; 
   border-radius: 5px; 
   flex: 30% !important;
-  max-width: 30% !important;
-  padding: 10px !important; 
+  max-width: 33% !important;
+  padding: 5px !important; 
   margin: 10px !important;
-  width: 30% !important;
+  width: 33% !important;
 }
 .GridView {
   margin-bottom: 50px;
@@ -110,10 +111,18 @@ button:hover {
   color: #272727;
 }
 .breadcrumbbanner img {width: 100%;}
+.readmore-btn {margin-top: 8px;}
+.readmore-btn a:hover {color: #272727;}
+.readmore-btn a {
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: 500; 
+}
 .img-flex p {padding-right: 20px;}
 .GridView img, 
 .img-flex img {
   border-radius: 5px; 
+  width: 100%;
   border: 1px solid #f1f1f1;
 }
 .footer {
