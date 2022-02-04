@@ -38,6 +38,7 @@ form {
   margin: 0 auto;
   padding: 50px;
 }
+a.logo {text-decoration: none;}
 .office-address {width: 80%;margin-top: 30px;}
 .img-flex, .login-inline, .form-address {
   display: flex;
@@ -111,7 +112,7 @@ button:hover {
   color: #272727;
 }
 .breadcrumbbanner img {width: 100%;}
-.readmore-btn {margin-top: 8px;}
+.readmore-btn {margin-bottom: 5px;margin-left: 5px;}
 .readmore-btn a:hover {color: #272727;}
 .readmore-btn a {
   color: #fff; 
@@ -126,9 +127,8 @@ button:hover {
   border: 1px solid #f1f1f1;
 }
 .footer {
- background-color: darkslategray;
+ background-color: #272727;
  color: #FFF;
- font-size: 12px;
  font-family: 'Poppins', sans-serif;
 }
 .footer 

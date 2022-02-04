@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BreadCrumbBanner from './banner';
-import Footer from "./footer";
 
 const FORM_ENDPOINT = "./thankyou"; 
 
@@ -20,7 +19,6 @@ const Register = () => {
       </div>
     );
   }
-
   
   return (      
 <div>
@@ -29,11 +27,10 @@ const Register = () => {
       <h2>? dont have account, please Sign Up here</h2>
          <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      
-      target="_blank"
-    >
+        action={FORM_ENDPOINT}
+        onSubmit={handleSubmit}      
+        target="_blank"
+      >
       <div className="contact-us-form">
         <input
           type="text"
@@ -95,9 +92,7 @@ const Register = () => {
           Register
         </button>
       </div>
-    </form>            
-    
-    
+    </form>
     <div className="login-inline">
     <h3>please login, if you have an account with us. </h3>
         <button
@@ -108,13 +103,8 @@ const Register = () => {
         </button>
       </div>
       </div>
-    <Footer />
-    </div>
-      
+    </div>      
   );
-  
 };
-
-
 
 export default Register;

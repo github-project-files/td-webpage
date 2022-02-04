@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import BreadCrumbBanner from './banner';
-import Footer from "./footer";
 
 const FORM_ENDPOINT = "./thankyou"; 
 
@@ -39,56 +38,51 @@ const ContactForm = () => {
         +91 000-000-000<br/>
         john.doe@domain.com</p>
       </div>
-    <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      
-      target="_blank"
-    >
-      <div className="contact-us-form">
-        <input
-          type="text"
-          placeholder="Your name"
-          name="name"
-          className=""
-          required
-        />
-      </div>
-      <div className="">
-        <input
-          type="email"
-          placeholder="Email"
-          name="email"
-          className=""
-          required
-        />
-      </div>
-      <div className="mb-3 pt-0">
-        <textarea
-          placeholder="Your message"
-          name="message"
-          className=""
-          required
-        />
-      </div>
-      <div className="">
-        <button
-          className=""
-          type="submit"
-        >
-          Send a message
-        </button>
-      </div>
-    </form>  
+      <form
+        action={FORM_ENDPOINT}
+        onSubmit={handleSubmit}
+        
+        target="_blank"
+      >
+        <div className="contact-us-form">
+          <input
+            type="text"
+            placeholder="Your name"
+            name="name"
+            className=""
+            required
+          />
+        </div>
+        <div className="">
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            className=""
+            required
+          />
+        </div>
+        <div className="mb-3 pt-0">
+          <textarea
+            placeholder="Your message"
+            name="message"
+            className=""
+            required
+          />
+        </div>
+        <div className="">
+          <button
+            className=""
+            type="submit"
+          >
+            Send a message
+          </button>
+        </div>
+      </form>  
     </div>
-    </div>
-    <Footer />
-    </div>
-      
-  );
-  
+  </div>
+</div>      
+  );  
 };
-
-
 
 export default ContactForm;
