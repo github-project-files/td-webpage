@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +11,12 @@
 }
 h1.logo {
     color: blue;
+    font-family: 'Poppins', sans-serif;
 }
-.navbar-inner h1 {font-size: 40px;}
+.navbar-inner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
 .navbar-inner {
     align-items: center;
     justify-content: space-around;
@@ -33,17 +39,38 @@ h1.logo {
 text-decoration: none;
 color: cornsilk;
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
 padding: 10px 20px;
 margin: 0 10px;
 cursor: pointer;
 }
-/* li {padding-top: 10px;} */
 .signup {
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px;
+    border: blue 1px solid;
+    cursor: pointer;
+    width: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .signup:hover {
+    background-color: #FFF; 
+    border: 1px solid darkblue; 
+    color: #272727;
+  }
+/* .signup {
 border: 1px solid cornsilk;
 border-radius: 5px;
 color: cornsilk;
 padding: 12px;
 text-decoration: none;
 width: 120px;
+font-family: 'Poppins', sans-serif;
 text-align: center;
-}
+} */

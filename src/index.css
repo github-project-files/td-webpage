@@ -87,19 +87,19 @@ textarea {
 button {
   font-family: 'Poppins', sans-serif;
   background-color: blue;
-  color: antiquewhite;
-  font-weight: bold;
+  color: #FFF;
+  font-weight: 400;
   font-size: 15px;
-  padding: 8px 10px;
+  padding: 6px 18px;
   border: blue 1px solid;
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 5px;
 }
 button:hover {
-  background-color: whitesmoke; 
-  border: 2px solid darkblue; 
-  color: darkslategray;
+  background-color: #FFF; 
+  border: 1px solid darkblue; 
+  color: #272727;
 }
 .breadcrumbbanner img {width: 100%;}
 .img-flex p {padding-right: 20px;}
@@ -110,7 +110,7 @@ button:hover {
 }
 .footer {
  background-color: darkslategray;
- color: ghostwhite;
+ color: #FFF;
  font-size: 12px;
  font-family: 'Poppins', sans-serif;
 }
