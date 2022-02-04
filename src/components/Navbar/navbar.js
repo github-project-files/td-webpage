@@ -13,7 +13,7 @@ export default function navbar() {
                             <Link to ="/services" className='services'><li>Services</li></Link>    
                             <Link to ="/product" className='products'><li>Products</li></Link>    
                             <Link to ="/contact" className='contact'><li>contact</li></Link>    
-                            <Link to ="/signup" className='signup'><li>Sign Up</li></Link>    
+                            <Link to ="/register" className='signup'><li>Sign Up</li></Link>    
                             {/* <Link to ="/thankyou" className='thankyou'><li>Thank You</li></Link>     */}
                         </ul>
                 </div>
